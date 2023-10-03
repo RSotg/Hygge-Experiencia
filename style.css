@@ -43,15 +43,20 @@ html {
 }
 
 .TitleContainer {
-  display: flex;
-  justify-content: center;
-  color: #546c22;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #f2dea9;
   font-family: Candara;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  background: #546c22;
+  border-radius: 40px;
+  width: 250px;
+  height: 55px;
+  text-align: center;
 }
 
 .FootersContainer {
