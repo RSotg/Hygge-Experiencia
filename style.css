@@ -7,6 +7,10 @@ header {
 html {
   background-color: #f7edd6;
 }
+
+body {
+  background: #f7edd6 !important;
+}
 .headerContainer {
   height: 40px;
   background: rgba(242, 222, 169, 0.35);
@@ -30,42 +34,37 @@ html {
   text-align: center;
 }
 
-.ImagesContainer {
+.imagesContainer {
   display: flex;
   justify-content: space-around;
   margin-top: 120px;
 }
 
-.ImagenContainer {
+.imagenContainer {
   width: 290px;
   height: 257px;
   border-radius: 40px;
 }
 
-.TitleContainer {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  color: #f2dea9;
-  font-family: Candara;
-  font-size: 20px;
-  font-style: normal;
-  line-height: normal;
-  text-transform: uppercase;
-  background: #546c22;
-  border-radius: 40px;
-  width: 250px;
-  height: 55px;
-  text-align: center;
+.imagesTitle {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.FootersContainer {
+.buttonContainer {
+  font-family: Candara;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footersContainer {
   border-radius: 40px;
   background: #f2dea959;
   padding: 5%;
 }
 
-.FooterContainer {
+.footerContainer {
   color: #000;
   font-family: Candara;
   font-size: 10px;
@@ -75,4 +74,19 @@ html {
   text-transform: uppercase;
   margin-top: 80px;
   text-align: center;
+}
+
+.headerContainertwo {
+  color: black;
+  font-family: Candara;
+  text-align: center;
+}
+
+.containerForm {
+  color: black;
+  font-family: Candara;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+
 }
