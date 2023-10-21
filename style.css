@@ -32,11 +32,9 @@ li {
 
 .textDiv {
   padding: 15px;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
 }
-
-
-  
 
 .imagesContainer {
   display: flex;
