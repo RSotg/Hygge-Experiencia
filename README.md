@@ -1,2 +1,3 @@
 # Hygge-Experiencia
-Repositorio de experiencias de Té. 
+Espacio creado para los amantes del Té.
+
