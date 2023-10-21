@@ -14,54 +14,110 @@
   </head>
   <body>
     <header>
-      <div class="headerContainer">
-        <div class="headerItem">Quienes somos</div>
-        <div class="headerItem">Regala una Experiencia</div>
-        <div class="headerItem">Experiencias</div>
-      </div>
+      
+      <!--menú >experiencia >Redirige a la sección Second-->
+      <nav class="menu">
+        <ul class="ulMenu">
+          <li><a class="links" href="#">Quienes Somos</a></li>
+          <li><a class="links" href="#">Regala una experiencia</a></li>
+          <li><a class="links" href="#expe">Experiencia</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="imagesContainer">
       <div class="imagenContainer">
+        <p>Tierra</p>
         <img src="./Rectangletierra.png" alt="ExperienciaTierra" />
       </div>
 
       <div class="imagenContainer">
+        <p>Fuego</p>
         <img src="./Rectanglefire.png" alt="ExperienciaFuego" />
       </div>
 
       <div class="imagenContainer">
+        <p>Agua</p>
         <img src="./Rectanglewater.png" alt="ExperienciaAgua" />
       </div>
     </div>
-    <div class="imagesTitle">
-      <p>Experiencia Tierra</p>
-      <p>Experiencia Fuego</p>
-      <p>Experiencia Agua</p>
-    </div>
-
+  
+<!--Botón redirige a la sección First: formulario-->
     <div class="buttonContainer">
       <button type="button" class="btn btn-dark btn-lg buttonHygge">
-        <a class="btn btn-dark" href="http://127.0.0.1:5500/secod.html"
-          >Reservar</a
-        >
+        <a class="btn btn-dark" href="#form">Reservar</a>
       </button>
     </div>
 
-    <footer class="footerContainer">
-      <div>
-        <p>Términos y condiciones</p>
-      </div>
+    <!--first section: formulario, aun falta incorporar el Formulario. (Botón redirige a la sección Third)-->
+<section class="formContent" id="form">
 
-      <div>
+</section>
+    
+          <div class="buttonContainer">
+            <button
+              type="button"
+              class="btn btn-dark btn-lg buttonHygge"
+              type="submit"
+            >
+              <a class="btn btn-dark" href="#end">Enviar formulario</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--second section: Detalles de las experiencias. Menú>Experiencias>Click-->
+    <section class="menuContent" id="expe">
+      <ul class="ulExperiencias">
+        <li><a>Tierra</a>
+          <div class="textDiv">
+          <p>Earl Grey: Té negro en hebras, Flores de aciano & Bergamota.<br>
+            Green Forest: Té verde en hebras, Árandanos & Rosas.<br>
+            Green Sweet: Té verde en hebras, Frutillas & Canela.<hr></p>
+          </div>
+        </li>
+        <li><a>Fuego</a>
+          <div class="textDiv">
+        <p>
+          India Chai: Té negro en hebras, Pimienta de Jamaica & Clavo de olor. <br>
+          Honey Autumn: Té negro en hebras, Miel, Canela,Jengibre & Pimienta.<br>
+          Sun Orange: Té Oolong en hebras con cáscara de Naranja y Limón.<hr>
+        </div>
+        </p></li>
+        <li><a>Agua</a>
+        <div class="textDiv">
+        <p>
+          Blueberries: Té negro en hebras, Árandanos & Ralladura de naranja.<br>
+          Green Apple: Té verde en hebras, Manzana & Canela.<br>
+          Mango Mint: Té Verde en hebras, Menta & Mango .<hr>
+          </div>
+        </p></li>
+
+        <li>
+          <div>
+            <a>Selección de Té de la mejor calidad<br>Todas las experiencias incluyen degustaciónes dulces y saladas como acompañate</a>
+            </div>
+        </li>
+      </ul>
+       
+    </section>
+
+    <!--third section:Esta sección aún esta en proceso,sección final-->
+    <section class="sectionStyle" id="end">
+      <p>En construcción...</p>
+    </section>
+
+    <footer class="footerContainer">
+      <div class="footerContent">
+        <p>Términos y condiciones</p>
+
         <p>
           Ubicación Av. Libertador 5592. Belgrano. Capital Federal. Argentina
         </p>
-      </div>
 
-      <div><p>Contacto CustomerHygge@hygge.com</p></div>
+        <p>Contacto CustomerHygge@hygge.com</p>
 
-      <div>
         <p>
           © 2023 Hygge family s.r.l .TODOS LOS DERECHOS RESERVADOS. DESIGNED &
           DEVELOPED BY Raquelsotgo
