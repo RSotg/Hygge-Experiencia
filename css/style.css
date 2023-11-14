@@ -1,6 +1,7 @@
 body {
   background: #f7edd6 !important;
 }
+
 .menu {
   background-color: rgba(242, 222, 169, 0.35);
   padding: 1px;
@@ -10,9 +11,11 @@ body {
   text-decoration: none;
   color: black;
 }
+
 li {
   list-style-type: none;
 }
+
 .ulMenu {
   display: flex;
   justify-content: space-around;
@@ -31,9 +34,11 @@ li {
 }
 
 .textDiv {
-  padding: 15px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  font-family: Candara;
+  font-size: 20px;
 }
 
 .imagesContainer {
@@ -44,35 +49,6 @@ li {
   position: relative;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
-  .imagesContainer {
-    flex-direction: column;
-    align-items: center;
-  }
-  .ulMenu {
-    font-size: 15px;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-  }
-  .footerContent {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-  }
-  .ulExperiencias {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    text-align: justify;
-  }
-
-  .containerForm {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 .imagenContainer {
   width: 290px;
   height: 257px;
@@ -81,6 +57,7 @@ li {
   margin-top: 20px;
   margin-bottom: 60px;
   transition: 0.5s;
+  font-family: Candara;
 }
 
 .imagenContainer:hover {
@@ -92,6 +69,7 @@ li {
   font-family: Candara;
   text-align: center;
   margin-top: 50px;
+  font-family: Candara;
 }
 
 .footerContent {
@@ -112,10 +90,13 @@ li {
   margin-top: 80px;
 }
 
+/*En la clase sectionstyle, se ingreso display: none, ya que es necesario para la experiencia de usuario, que la
+sección final unicamente se visualice una vez el formulario es enviado.  */
 .sectionStyle {
   margin-bottom: 20px;
   padding-bottom: 30px;
-  margin-top: 250px;
+  margin-top: -50px;
+  display: none;
 }
 
 .containerForm {
@@ -125,9 +106,73 @@ li {
   align-items: center;
   margin-top: 120px;
   box-sizing: border-box;
+  font-family: Candara;
 }
 
 .sizeComments {
   width: 300px;
   height: 100px;
+}
+
+.textEnd {
+  display: flex;
+  justify-content: center;
+  font-family: Candara;
+  font-size: 45px;
+  padding: 150px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-top: -120px;
+}
+
+.textThree {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: Candara;
+  font-size: 20px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .imagesContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ulMenu {
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .ulExperiencias {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: justify;
+  }
+
+  .containerForm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionStyle {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+  }
 }
