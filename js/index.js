@@ -1,5 +1,5 @@
 function validarFormulario() {
-    console.log("estoy aqui")
+    console.log("estoy aqui");
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
     var numero = document.getElementById("numero").value;

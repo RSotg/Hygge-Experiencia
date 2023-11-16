@@ -2,11 +2,13 @@ body {
   background: #f7edd6 !important;
 }
 
+/*Color de fondo del menú */
 .menu {
   background-color: rgba(242, 222, 169, 0.35);
   padding: 1px;
 }
 
+/*A la lista del menú se le eliminan las viñetas con la propiedad Text-decoration:none*/
 .links {
   text-decoration: none;
   color: black;
@@ -137,7 +139,7 @@ sección final unicamente se visualice una vez el formulario es enviado.  */
   margin-top: 50px;
   align-items: center;
 }
-
+/*El responsive design se habilita para pantallas minimo 360 y máximo 768  */
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .imagesContainer {
     flex-direction: column;
